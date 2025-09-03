@@ -119,9 +119,6 @@
         
         <div class="theme-controls">
             <h3>🌈 主題切換</h3>
-            <button class="theme-btn active" onclick="switchTheme('auto')" id="auto-btn">
-                🔄 自動模式
-            </button>
             <button class="theme-btn" onclick="switchTheme('light')" id="light-btn">
                 ☀️ 淺色模式  
             </button>
@@ -166,7 +163,7 @@
                     themeUrl = 'https://raw.githubusercontent.com/allen5218/custom-giscus-theme/refs/heads/main/gitalk-light.css';
                     break;
                 case 'dark':
-                    themeUrl = 'https://gcore.jsdelivr.net/gh/seiki-yui/Giscus-DarkMode/Giscus.seiki.css';
+                    themeUrl = 'https://raw.githubusercontent.com/allen5218/giscus/refs/heads/main/Giscus.dark.css';
                     break;
                 case 'auto':
                 default:
